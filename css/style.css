@@ -6,10 +6,13 @@
 }
 
 /* common */
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /* header */
 header {
-    background-color: #ADD8E6;
+    background-color: #2C5EE9;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -17,34 +20,56 @@ header {
     padding: 20px 250px;
 }
 
+
 .col-logo {
     width: 15%;
-    background-color: #DAA51F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* debug */
     /* height: 40px;  */
-    border: 1px dashed black;
+    /* background-color: #DAA51F; */
+    /* border: 1px dashed black; */
 
 }
 
 .col-link {
     width: 70%;
-    background-color: #DAA51F;
     text-align: center;
     /* debug */
     /* height: 40px;  */
-    border: 1px dashed black;
-
+    /* border: 1px dashed black; */
+    /* background-color: #DAA51F; */
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+li > a {
+      text-decoration: none;
+      color: white;
+
+}
 .col-login {
-    width: 15%;
-    background-color: #DAA51F;
+    background-color: #FFFFFF;
     text-align: right;
+    border-radius: 10px;
     /* debug */
+    /* width: 15%; */
     /* height: 40px;  */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
-
+.col-login a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
 /* main */
 /* first main */
 .first-conteiner {
