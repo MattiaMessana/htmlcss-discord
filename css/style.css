@@ -9,7 +9,9 @@
 body{
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 /* header */
 header {
     background-color: #2C5EE9;
@@ -76,20 +78,48 @@ li > a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
     /* debug */
-    height: 500px;
-    background-color: #11078B;
+    /* height: 500px; */
+    /* background-color: #11078B; */
 
 }
 
 .pink-conteiner {
     width: 900px;
+    text-align: center;
+    color: white;
+    padding: 90px;
     /* debug */
     height: 350px;
-    border: 2px dashed black;
-    background-color: #EE82EE;
+    /* border: 2px dashed black; */
+    /* background-color: #EE82EE; */
 
 }
+
+.pink-conteiner p{
+    margin-top: 10px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center
+}
+.link-mac{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 9px;
+    margin-right: 20px;
+}
+
+.link-browser{
+    background-color: #23272A;
+    color: white;
+    border-radius: 20px;
+    padding: 9px;
+}
+
 
 /* second main */
 .second-conteiner {
