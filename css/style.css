@@ -169,8 +169,13 @@ li>a {
     font-size: 0.8rem;
     line-height: 20px;
 }
-
-
+/* separatore */
+.separatore{
+    /* background-image: url(../img/wave.svg); */
+    /* background-color: #D3D3D3; */
+    /* debug */
+    
+}
 /* third main */
 .third-conteiner {
     display: flex;
@@ -180,11 +185,9 @@ li>a {
     /* debug */
     height: 500px;
     background-color: #D3D3D3;
-
+    
 }
-
 /* fourth main */
-
 
 /* fifth main */
 .fifth-conteiner {
@@ -200,11 +203,39 @@ li>a {
 
 .one-big-conteiner {
     width: 800px;
+    text-align: center;
     /* debug */
     height: 800px;
-    border: 2px dashed black;
-    background-color: #278B21;
-
+    /* border: 2px dashed black; */
+    /* background-color: #278B21; */
+}
+.one-big-conteiner h2{
+    margin-bottom: 20px;
+}
+.one-big-conteiner p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+.one-big-conteiner img{
+   text-align: center; 
+}
+.one-big-conteiner span{
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    padding: 11px 50px 0px;
+}
+#link-mac-purple{
+    display: block;
+    background-color: #7289DB;
+    color: white;
+    margin: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 140px;
+    margin-left: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 /* footer */
