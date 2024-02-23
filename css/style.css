@@ -6,12 +6,14 @@
 }
 
 /* common */
-body{
+body {
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* header */
 header {
     background-color: #2C5EE9;
@@ -44,20 +46,22 @@ header {
     /* background-color: #DAA51F; */
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 20px;
-    
-}
-li > a {
-      text-decoration: none;
-      color: white;
 
 }
+
+li>a {
+    text-decoration: none;
+    color: white;
+
+}
+
 .col-login {
     background-color: #FFFFFF;
     text-align: right;
@@ -67,11 +71,13 @@ li > a {
     /* height: 40px;  */
     /* border: 1px dashed black; */
 }
+
 .col-login a {
     text-decoration: none;
     color: black;
     padding: 20px;
 }
+
 /* main */
 /* first main */
 .first-conteiner {
@@ -99,13 +105,14 @@ li > a {
 
 }
 
-.pink-conteiner p{
+.pink-conteiner p {
     margin-top: 10px;
     line-height: 35px;
     margin-bottom: 10px;
     text-align: center
 }
-.link-mac{
+
+.link-mac {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -113,7 +120,7 @@ li > a {
     margin-right: 20px;
 }
 
-.link-browser{
+.link-browser {
     background-color: #23272A;
     color: white;
     border-radius: 20px;
@@ -135,19 +142,34 @@ li > a {
     width: 70%;
     /* debug */
     height: 350px;
-    border: 2px dashed black;
-    background-color: #3A90FF;
+    /* border: 2px dashed black; */
+    /* background-color: #3A90FF; */
 
+}
+.big-conteiner img{
+    text-align: center;
+    height: 330px;
+    margin-left: 220px;;
 }
 
 .small-conteiner {
     width: 30%;
+    text-align: justify;
+    margin-right: 60px;
     /* debug */
     height: 350px;
-    border: 2px dashed black;
-    background-color: #FCFB03;
-
+    /* border: 2px dashed black; */
+    /* background-color: #FCFB03; */
 }
+.small-conteiner h2{
+    margin-top: 30px;
+}
+.small-conteiner p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
 
 /* third main */
 .third-conteiner {
