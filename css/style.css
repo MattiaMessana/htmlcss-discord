@@ -146,10 +146,12 @@ li>a {
     /* background-color: #3A90FF; */
 
 }
-.big-conteiner img{
+
+.big-conteiner img {
     text-align: center;
     height: 330px;
-    margin-left: 220px;;
+    margin-left: 220px;
+    ;
 }
 
 .small-conteiner {
@@ -161,21 +163,26 @@ li>a {
     /* border: 2px dashed black; */
     /* background-color: #FCFB03; */
 }
-.small-conteiner h2{
+
+.small-conteiner h2 {
     margin-top: 30px;
 }
-.small-conteiner p{
+
+.small-conteiner p {
     margin-top: 30px;
     font-size: 0.8rem;
     line-height: 20px;
 }
+
 /* separatore */
-.separatore{
-    /* background-image: url(../img/wave.svg); */
-    /* background-color: #D3D3D3; */
-    /* debug */
-    
-}
+/* .separatore{ */
+/* background-image: url(../img/wave.svg); */
+/* background-color: #D3D3D3; */
+/* debug */
+/*      */
+/* } */
+
+
 /* third main */
 .third-conteiner {
     display: flex;
@@ -185,8 +192,9 @@ li>a {
     /* debug */
     height: 500px;
     background-color: #D3D3D3;
-    
+
 }
+
 /* fourth main */
 
 /* fifth main */
@@ -209,23 +217,28 @@ li>a {
     /* border: 2px dashed black; */
     /* background-color: #278B21; */
 }
-.one-big-conteiner h2{
+
+.one-big-conteiner h2 {
     margin-bottom: 20px;
 }
-.one-big-conteiner p{
+
+.one-big-conteiner p {
     margin-top: 30px;
     font-size: 0.8rem;
     line-height: 20px;
 }
-.one-big-conteiner img{
-   text-align: center; 
+
+.one-big-conteiner img {
+    text-align: center;
 }
-.one-big-conteiner span{
+
+.one-big-conteiner span {
     background-image: url(../img/stars.svg);
     background-size: 100%;
     padding: 11px 50px 0px;
 }
-#link-mac-purple{
+
+#link-mac-purple {
     display: block;
     background-color: #7289DB;
     color: white;
